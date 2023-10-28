@@ -1,0 +1,149 @@
+.body {
+  background-color: rgb(152, 216, 216);
+}
+
+.display-2 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.header-color {
+  color: rgb(156, 168, 205);
+}
+
+.projects {
+  width: 350px;
+  height: 300px;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  border-radius: .5rem;
+  transition: .3s;
+  background-color: #140844;
+
+}
+
+.button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+.contact__button {
+  display: block;
+  color: #fff;
+  padding: .45rem 1.5rem;
+  border-radius: .5rem;
+  transition: .3s;
+  cursor: pointer;
+  margin-left: auto;
+  background-color: #140844;
+}
+
+.footer {
+  background-color: #231246;
+  color: #f2f1f8;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer-one {
+  font-size: 23px;
+  color: #fff;
+  margin: 0 var(--mb-2);
+  margin-bottom: 15px;
+}
+
+.footer-two {
+  font-size: 15px;
+}
+
+.skills__subtitle {
+  margin-bottom: var(--mb-2);
+}
+
+.skills__text {
+  margin-bottom: var(--mb-4);
+}
+
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+
+.skills__icon {
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+}
+
+.skills__names {
+  display: flex;
+  align-items: center;
+}
+
+.skills__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+
+.skills__html {
+  width: 95%;
+}
+
+.skills__css {
+  width: 85%;
+}
+
+.skills__js {
+  width: 65%;
+}
+
+.skills__ux {
+  width: 85%;
+}
+
+.nav-item {
+  margin-bottom: var(--mb-4);
+}
+
+.nav-link {
+  position: relative;
+  color: #fff;
+}
+
+.nav__link:hover {
+  position: relative;
+}
+
+.nav__link:hover::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+}
+
+.github-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+}
+
+
